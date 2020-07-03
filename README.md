@@ -15,7 +15,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   * npm install 
   ## Usage
   Screenshot of running application
-  ![budget](https://user-images.githubusercontent.com/58574509/85650553-5e545e00-b6d8-11ea-9a7d-adfd8086ef9c.PNG)
+  
   ## Contributing
    UWA Coding Bootcamp
   ## License
