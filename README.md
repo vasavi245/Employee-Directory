@@ -1,5 +1,31 @@
+# Employee Directory
+![GitHub issues](https://img.shields.io/github/issues/vasavi245/Employee-Directory)
+## Description
+This is a React app that lets you view a list of employees, Allows you to search for employees and sort by name of the employees or by department, byascending order.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+  ## Table of Contents
+  1. [Installation](#Installation)
+  2. [Usage](#Usage)
+  3. [Licence](#License)
+  4. [Contributing](#Contributing)
+  5. [Questions](#Questions)
+  6. [Links](#Links)
+  ## Installation
+  To install necessary dependencies, run the following commands:
+  * npm install 
+  ## Usage
+  Screenshot of running application
+  ![budget](https://user-images.githubusercontent.com/58574509/85650553-5e545e00-b6d8-11ea-9a7d-adfd8086ef9c.PNG)
+  ## Contributing
+   UWA Coding Bootcamp
+  ## License
+  ![GitHub](https://img.shields.io/github/license/vasavi245/Employee-Directory)
+  ## Questions
+  * <img src="https://avatars0.githubusercontent.com/u/58574509?v=4" alt="avatar" style="border-radius: 16px" width="150" />
+  If you have any questions about the repo, open an issue or contact [vasavi245](https://api.github.com/users/vasavi245) directly at r.vasavi04@gmail.com
+  ## Links
+  
+  
 ## Available Scripts
 
 In the project directory, you can run:

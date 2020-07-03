@@ -1,4 +1,5 @@
 import React from 'react';
+import "./styles/employeeCard.css"
 
 // function employee card that returns employee details
 function EmployeeCard(props) {
