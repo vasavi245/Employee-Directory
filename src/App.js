@@ -3,6 +3,7 @@ import EmployeeCardList from "./components/EmployeeCardList";
 import employees from "./employees.json";
 import SearchForm from "./components/SearchForm";
 import Wrapper from "./components/Wrapper";
+import Footer from "./components/Footer";
 import './App.css';
 
 
@@ -42,9 +43,10 @@ function App() {
   const filteredEmployees = data.filter(employee => employee.name.toLowerCase().startsWith(searchTerm.toLowerCase()));
   return (
     <div className="App">
-      
+         <div className="head">
          <h1 className="title">Employee Directory</h1>
          <p className="mb-16 text-md">Sort by Name,Department or Search for an employee</p>
+         </div>
          <SearchForm
            onSearch={handleSearchTerm}
            searchterm={searchTerm}
@@ -54,6 +56,7 @@ function App() {
          <Wrapper>
          <EmployeeCardList data={filteredEmployees} />
       </Wrapper>
+      <Footer />
     </div>
   );
 }
