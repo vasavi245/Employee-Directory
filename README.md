@@ -15,15 +15,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   * npm install 
   ## Usage
   Screenshot of running application
-  
+  ![imageempdir](https://user-images.githubusercontent.com/58574509/86507222-184e7700-be09-11ea-90e5-2322b27fcc2b.PNG)
   ## Contributing
-   UWA Coding Bootcamp
+   UWA Coding Bootcamp, https://randomuser.me/ to include employees. 
   ## License
   ![GitHub](https://img.shields.io/github/license/vasavi245/Employee-Directory)
   ## Questions
   * <img src="https://avatars0.githubusercontent.com/u/58574509?v=4" alt="avatar" style="border-radius: 16px" width="150" />
   If you have any questions about the repo, open an issue or contact [vasavi245](https://api.github.com/users/vasavi245) directly at r.vasavi04@gmail.com
   ## Links
+  * https://upper-doright-59763.herokuapp.com/
+  * https://github.com/vasavi245/Employee-Directory
   
   
 ## Available Scripts
