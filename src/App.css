@@ -38,5 +38,9 @@
 }
 
 .head {
-  background-color: #6CADDC;
+  background-color: rgba(38, 0, 255, 0.342);
+  min-height: 100px;
+  position: relative;
+  padding: 20px;
 }
+

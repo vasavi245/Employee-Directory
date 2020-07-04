@@ -1,7 +1,7 @@
 import React from 'react';
 import EmployeeCard from "./EmployeeCard";
 
-
+// mapping the list of employees
 function EmployeeCardList({ data }) {
     return (
         data.map(employee => (

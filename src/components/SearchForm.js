@@ -14,7 +14,7 @@ function SearchForm({ onSearch, searchTerm, handleSortByName, handleSortByDept }
                 <input
                    value={searchTerm} // value attribute contain search term value
                    onChange={onSearch} //onChange attribute uses onSearch prop method let state know there was a change
-                   className="rounded py-1"
+                   className="rounded py-1 inputSearch"
                    type="text"
                    placeholder="Search employee" />
             </form>

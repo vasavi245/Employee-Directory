@@ -4,6 +4,7 @@ import employees from "./employees.json";
 import SearchForm from "./components/SearchForm";
 import Wrapper from "./components/Wrapper";
 import Footer from "./components/Footer";
+import logo from "./logo2.png"
 import './App.css';
 
 
@@ -13,6 +14,7 @@ function App() {
   const [ sorted, setSorted ] = useState(false);
   const [ data, setEmployees ] = useState(employees);
 
+  // handling the search term handles the searched item
   function handleSearchTerm(event)  {
     setSearchTerm(event.target.value)
 }
@@ -44,9 +46,9 @@ function App() {
   return (
     <div className="App">
          <div className="head">
-         <h1 className="title">Employee Directory</h1>
-         <p className="mb-16 text-md">Sort by Name,Department or Search for an employee</p>
+           <img src={logo} alt="logo"/>
          </div>
+         <p><strong>Sort by Name,Department or Search for an employee</strong></p>
          <SearchForm
            onSearch={handleSearchTerm}
            searchterm={searchTerm}
