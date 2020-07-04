@@ -33,10 +33,10 @@ function App() {
   function handleSortByDept() {
     // sort array ascending or descending by deparment
     if(!sorted) {
-      setEmployees(data.sort((a,b) => (a.name > b.name) ? 1: -1));
+      setEmployees(data.sort((a,b) => (a.department > b.department) ? 1: -1));
       setSorted(true);
     } else {
-      setEmployees(data.sort((a, b) => (a.name > b.name) ? -1 : 1));
+      setEmployees(data.sort((a, b) => (a.department > b.department) ? -1 : 1));
       setSorted(false);
     }
   }
@@ -46,9 +46,10 @@ function App() {
   return (
     <div className="App">
          <div className="head">
-           <img src={logo} alt="logo"/>
+           <img src={logo} className="img-fluid" alt="logo"/>
          </div>
          <p><strong>Sort by Name,Department or Search for an employee</strong></p>
+         { /*handle search term method and searchterm state get passed down to searchform component via props with on search and searchterm props */}
          <SearchForm
            onSearch={handleSearchTerm}
            searchterm={searchTerm}
